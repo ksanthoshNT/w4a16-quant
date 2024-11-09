@@ -1,0 +1,36 @@
+==================================================
+Model Analysis Report
+==================================================
+
+Total Model Size:
+- Bytes: 5,827,176,481
+- Human readable: 5.8 GB
+
+Individual File Sizes:
+- model-00002-of-00002.safetensors: 1.1 GB
+- tokenizer_config.json: 51.0 kB
+- quanto_qmap.json: 23.5 kB
+- README.md: 294 Bytes
+- config.json: 737 Bytes
+- tokenizer.json: 17.2 MB
+- special_tokens_map.json: 296 Bytes
+- generation_config.json: 158 Bytes
+- model.safetensors.index.json: 104.9 kB
+- model-00001-of-00002.safetensors: 4.8 GB
+
+Model Configuration:
+- model_type: llama
+- vocab_size: 128256
+- hidden_size: 4096
+- num_attention_heads: 32
+- num_hidden_layers: 32
+- max_position_embeddings: 8192
+
+Quantization Details:
+- Weight precision: 4-bit (W4)
+- Activation precision: 16-bit (A16)
+- Quantization method: QInt4 (optimum.quanto)
+
+Estimated Runtime Memory Requirements:
+- Minimum: 7.0 GB
+- Recommended: 10.5 GB
